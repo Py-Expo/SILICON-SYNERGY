@@ -1,0 +1,44 @@
+.graph-container {
+    margin-bottom: 20px;
+  }
+  
+  .graph-container h2 {
+    margin-bottom: 5px;
+  }
+  
+  .bar-graph {
+    width: 300px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .bar {
+    background-color: #3498db;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 2;
+  }
+  
+  .histogram {
+    width: 300px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .histogram .bar {
+    background-color: #e74c3c;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: calc(100% / 4);
+    text-align: center;
+    line-height: 2;
+  }
+  
